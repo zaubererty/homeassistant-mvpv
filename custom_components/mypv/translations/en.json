@@ -1,0 +1,18 @@
+{
+  "config": {
+    "title": "MYPV",
+    "step": {
+      "user": {
+        "data": {
+          "host": "The ip address of this mypv device"
+        }
+      }
+    },
+    "error": {
+      "host_exists": "This host is already configured"
+    },
+    "abort": {
+      "host_exists": "This host is already configured"
+    }
+  }
+}

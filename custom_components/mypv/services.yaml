@@ -1,0 +1,12 @@
+set_max_power:
+  description: Sets the maximum power in watt.
+  fields:
+    max_current:
+      description: Set used power
+      example: "2500"
+switch_boost:
+  description: Switches the boost function on or off
+  fields:
+    absolute_max_current:
+      description: Switch boost on
+      example: "1"

@@ -1,0 +1,9 @@
+{
+  "domain": "mypv",
+  "name": "MyPV AC-THOR and ELWA",
+  "documentation": "http://www.ziegler.bz",
+  "config_flow": true,
+  "dependencies": [],
+  "codeowners": ["@zaubererty"],
+  "requirements": []
+}

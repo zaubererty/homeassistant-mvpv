@@ -1,0 +1,5 @@
+{
+  "name": "MyPV AC-Thor",
+  "domains": ["sensor"],
+  "iot_class": "Local Polling"
+}
