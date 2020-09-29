@@ -25,6 +25,5 @@ BETA * BETA * BETA - Not finished yet - BETA * BETA * BETA
 - [ ] clean up code
 - [ ] Test other devices (ELWA, AC-Thor 9, etc.)
 - [ ] Add Icons
-- [ ]
 
 

@@ -2,7 +2,7 @@
 
 Home Assistant Component for AC-Thor of MyPV
 
-<a href="https://www.buymeacoffee.com/ittv" target="_blank"><img height="41px" width="167px" src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee"></a>
+<a href="https://www.buymeacoffee.com/zauberertz" target="_blank"><img height="41px" width="167px" src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee"></a>
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
@@ -15,11 +15,15 @@ Search for MyPV
 
 ### Configuration
 
-Add the following to your `configuration.yaml` file:
+The integration is configurated via UI
 
-```yaml
-# Example configuration.yaml entry
-sensor:
-    - platform: mypv
-      host: <IP>
-```
+BETA * BETA * BETA - Not finished yet - BETA * BETA * BETA
+
+### Todo:
+- [x] Monitorig of all status values
+- [ ] Complete services
+- [ ] clean up code
+- [ ] Test other devices (ELWA, AC-Thor 9, etc.)
+- [ ] Add Icons
+
+
