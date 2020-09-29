@@ -1,4 +1,4 @@
-# homeassistant-kostalplenticore
+# homeassistant-mypv
 
 Home Assistant Component for AC-Thor of MyPV
 
