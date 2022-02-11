@@ -4,7 +4,7 @@
   "name": "MyPV AC-THOR and ELWA",
   "documentation": "https://github.com/zaubererty/homeassistant-mvpv",
   "config_flow": true,
-  "dependencies": ["homeassistant>=2021.12.0"],
+  "dependencies": [],
   "codeowners": ["@zaubererty"],
   "requirements": []
 }
