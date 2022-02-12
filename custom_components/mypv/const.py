@@ -35,7 +35,7 @@ SENSOR_TYPES = {
     "power3_solar": ["power3_solar", POWER_WATT, "", "data"],
     "power3_grid": ["power3_grid", POWER_WATT, "", "data"],
     "load_state": ["load_state", None, "", "data"],
-    "load_nom": ["load_nom", None, "", "data"],
+    "load_nom": ["load_nom", POWER_WATT, "", "data"],
     "rel1_out": ["rel1_out", None, "", "data"],
     "temp1": ["Temperatur 1", TEMP_CELSIUS, "", "data"],
     "temp2": ["Temperatur 2", TEMP_CELSIUS, "", "data"],
