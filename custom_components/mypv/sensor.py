@@ -56,6 +56,10 @@ class MypvDevice(CoordinatorEntity):
         """Return the state of the device."""
         try:
             state = self.coordinator.data[self._data_source][self.type]
+            if self.type == "power_act":
+                relOut = self.coordinator.data[self._data_source]["rel1_out"]
+                loadNom = self.coordinator.data[self._data_source]["load_nom"]
+                state = (relOut * loadNom) + state
             self._last_value = state
         except Exception as ex:
             _LOGGER.error(ex)
