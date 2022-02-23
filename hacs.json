@@ -1,5 +1,7 @@
 {
   "name": "MyPV AC-Thor",
+  "content_in_root": false,
+  "render_readme": true,
   "domains": ["sensor"],
   "iot_class": "Local Polling"
 }
