@@ -40,7 +40,7 @@ SENSOR_TYPES = {
     "load_state": ["load_state", None, "", "data"],
     "load_nom": ["load_nom", POWER_WATT, "", "data"],
     "rel1_out": ["rel1_out", None, "", "data"],
-    "ww1target": ["Zieltemperatur", TEMP_CELSIUS, "", "data"],
+    "ww1target": ["target_temperature", TEMP_CELSIUS, "", "data"],
     "temp1": ["Temperatur 1", TEMP_CELSIUS, "", "data"],
     "temp2": ["Temperatur 2", TEMP_CELSIUS, "", "data"],
     "temp3": ["Temperatur 3", TEMP_CELSIUS, "", "data"],
