@@ -2,12 +2,18 @@
 from datetime import timedelta
 
 from homeassistant.const import (
-    POWER_WATT,
-    ELECTRIC_POTENTIAL_VOLT,
-    ELECTRIC_CURRENT_AMPERE,
-    FREQUENCY_HERTZ,
-    TEMP_CELSIUS,
+    UnitOfTemperature,
+    UnitOfElectricPotential,
+    UnitOfElectricCurrent,
+    UnitOfPower,
+    UnitOfFrequency,
 )
+
+POWER_WATT = UnitOfPower.WATT
+ELECTRIC_POTENTIAL_VOLT = UnitOfElectricPotential.VOLT
+ELECTRIC_CURRENT_AMPERE = UnitOfElectricCurrent.AMPERE
+FREQUENCY_HERTZ = UnitOfFrequency.HERTZ
+TEMP_CELSIUS = UnitOfTemperature.CELSIUS
 
 DOMAIN = "mypv"
 
