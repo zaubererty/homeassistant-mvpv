@@ -3,13 +3,15 @@
 import logging
 from homeassistant.const import CONF_MONITORED_CONDITIONS
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
-from homeassistant.const import (
+
+from .const import (
+    SENSOR_TYPES, 
+    DOMAIN, 
+    DATA_COORDINATOR,
     ELECTRIC_CURRENT_AMPERE,
     FREQUENCY_HERTZ,
     TEMP_CELSIUS,
 )
-
-from .const import SENSOR_TYPES, DOMAIN, DATA_COORDINATOR
 from .coordinator import MYPVDataUpdateCoordinator
 
 _LOGGER = logging.getLogger(__name__)
