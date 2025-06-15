@@ -7,7 +7,7 @@ import json
 from async_timeout import timeout
 from homeassistant.util.dt import utcnow
 from homeassistant.const import CONF_HOST
-from homeassistant.helpers.typing import HomeAssistantType
+from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
 from .const import DOMAIN
@@ -18,7 +18,7 @@ _LOGGER = logging.getLogger(__name__)
 class MYPVDataUpdateCoordinator(DataUpdateCoordinator):
     """Class to manage fetching MYPV data."""
 
-    def __init__(self, hass: HomeAssistantType, *, config: dict, options: dict):
+    def __init__(self, hass: HomeAssistant, *, config: dict, options: dict):
         """Initialize global NZBGet data updater."""
         self._host = config[CONF_HOST]
         self._info = None
