@@ -64,7 +64,7 @@ class MypvDevice(CoordinatorEntity):
                 state = (relOut * loadNom) + int(state)
             self._last_value = state
         except Exception as ex:
-            _LOGGER.error(ex)
+            _LOGGER.debug(ex)
             state = self._last_value
         if state is None:
             return state
