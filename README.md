@@ -6,6 +6,9 @@ Home Assistant Component for AC-Thor of MyPV
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
+know to work with AC-Thor and AC-Thor 9
+limited support for ELWA
+
 ### Installation
 
 Copy this folder to `<config_dir>/custom_components/mypv/`.
